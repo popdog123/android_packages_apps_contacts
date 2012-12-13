@@ -629,17 +629,6 @@ public class DialtactsActivity extends TransactionSafeActivity {
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        if(mPrefs.getBoolean("misc_sensor_rotation", true)) {
-            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
-        }
-        else {
-            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
-        }
-    }
-
-    @Override
     protected void onPause() {
         super.onPause();
 

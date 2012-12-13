@@ -17,11 +17,6 @@
 <PreferenceScreen
 	xmlns:android="http://schemas.android.com/apk/res/android">
 	<CheckBoxPreference
-		android:key="misc_sensor_rotation"
-		android:title="@string/dialer_ui_orientation_title"
-		android:persistent="true"
-		android:summary="@string/dialer_ui_orientation_summary" />
-	<CheckBoxPreference
 		android:key="t9_state"
 		android:defaultValue="true"
 		android:title="@string/t9_state_title"
